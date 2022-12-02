@@ -6,11 +6,11 @@ public class dogDriver
         Dog dog2 = new Dog("Piper", 3, "Austailian Shepherd", 45);
         Dog dog3 = new Dog("Coco", 5, "Maltipoo", 50);
 
-        System.out.println(dog1.getBreed());
-        System.out.println(dog1.getAge());
-        System.out.println(dog2.getWeight());
-        System.out.println(dog2.kilograms());
+        System.out.println("Breed: "+ dog1.getBreed());
+        System.out.println("Age: " + dog1.getAge());
+        System.out.println("Weight: " + dog2.getWeight());
+        System.out.println("In kilograms: " + dog2.kilograms());
         System.out.println(dog3);
-        System.out.println(dog3.getDogCount());
+        System.out.println("There are " + dog3.getDogCount()+ " dogs.");
     }
 }
